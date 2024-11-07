@@ -1,5 +1,5 @@
-# b. Genrate fisrt n prime number
-def genrateprime(n):
+# 2.l. Generate first n prime numbers
+def genrateprime():
     flag=False
     count=0
     i=2
@@ -15,5 +15,5 @@ def genrateprime(n):
             print(i)
             count+=1
         i+=1
-n=int(input("enter the number till which you want prime number"))
-genrateprime(10)
+n=int(input("enter the amount of primes you want"))
+genrateprime()
