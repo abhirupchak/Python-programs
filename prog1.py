@@ -1,6 +1,9 @@
 import math
-def roots(a,b,c):
+def roots():
   print("a is coeff of x^2, b is coeff of x and c is const")
+  a=int(input("Enter a"))
+  b=int(input("Enter b"))
+  c=int(input("Enter c"))
   D=b*b-4*a*c
   rootd=math.sqrt(abs(D))
   if D>0:
@@ -11,5 +14,6 @@ def roots(a,b,c):
     print(-b/(2*a))
   else:
     print("No real roots")
-roots(1,3,5)
+roots()
+
   
