@@ -17,4 +17,4 @@ N = int(input("enter number till which prime numbers are to be generated:"))
 for i in range(1,N+1):
   
     if(isPrime(i)):
-        print(i,end=" ")
+        print(i)
