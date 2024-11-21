@@ -1,4 +1,4 @@
-# 2.k. wap to generate primme numbers till n
+# 2.k. wap to generate prime numbers till n
 def isPrime(n):
 
     if(n==1 or n==0):  return False
