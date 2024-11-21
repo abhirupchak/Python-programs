@@ -11,7 +11,7 @@ def tuple_operations():
 
     # (b) Print another tuple whose values are even numbers in the given tuple.
     even_numbers = ()
-    for num in t1:  # Iterate through the tuple
+    for num in t1:  
         if num % 2 == 0:
             even_numbers += (num,)
     print("Even numbers:", even_numbers)
@@ -21,12 +21,7 @@ def tuple_operations():
     print("Concatenated tuple:", concatenated_tuple)
 
     # (d) Return maximum and minimum values from the tuple.
-    max_value = t1[0]
-    min_value = t1[0]
-    for num in t1:  # Iterate to find max and min
-        if num > max_value:
-            max_value = num
-        if num < min_value:
-            min_value = num
-    print("Maximum value:", max_value)
-    print("Minimum value:", min_value)
+    
+    print("Maximum value:", max(concatenated_tuple))
+    print("Minimum value:", min(concatenated_tuple))
+tuple_operations()
