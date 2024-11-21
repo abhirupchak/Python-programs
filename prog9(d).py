@@ -4,13 +4,13 @@ def copy_lines_to_files(input_file):
     file1 = open('File1.txt', 'w')
     file2 = open('File2.txt', 'w')
     
-    line_number = 1  # Manually track line numbers
+    line_number = 1 
     for line in infile:
         if line_number % 2 == 0:
             file1.write(line)
         else:
             file2.write(line)
-        line_number += 1  # Increment line number
+        line_number += 1  
       
     infile.close()
     file1.close()
