@@ -4,8 +4,10 @@ def character_frequency_in_file(filename):
     freq = {}
     with open(filename, 'r') as file:
         text = file.read()
+        a=0
         for char in text:
-            freq[char] = freq.get(char, 0) + 1
+            a+=1
+            freq[char] = a
     print(freq)
 
-character_frequency_in_file("sample.txt")
+character_frequency_in_file("textfile.txt")
