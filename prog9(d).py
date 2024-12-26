@@ -16,4 +16,4 @@ def copy_lines_to_files(input_file):
     file1.close()
     file2.close()
 
-    print("Lines copied successfully to File1.txt and File2.txt.")
+   copy_lines_to_files("textfile.txt")
