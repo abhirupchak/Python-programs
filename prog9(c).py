@@ -2,7 +2,11 @@
 
 def reverse_words_in_file(filename):
     with open(filename, 'r') as file:
-        words = file.read().split()
-    print(' '.join(reversed(words)))
+        f=file.read()
+        s=""
+        for i in range(len(f),0,-1):
+            s=""
+            s+=f[i]
+        print(s)
 
-reverse_words_in_file("sample.txt")
+reverse_words_in_file("textfile.txt")
